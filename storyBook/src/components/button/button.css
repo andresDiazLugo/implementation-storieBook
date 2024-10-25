@@ -1,0 +1,29 @@
+/* Estilos base para el botón */
+.button {
+    --accent-color: DodgerBlue;
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+/* Estilos para cada tipo de botón */
+.primary {
+    background-color: red; /* Puedes cambiarlo si deseas otro color */
+}
+
+.secondary {
+    background-color: aqua;
+    border: 1px solid var(--accent-color);
+    color: var(--accent-color);
+}
+
+.terciary {
+    background-color: greenyellow;
+    border: 1px solid black;
+    color: var(--accent-color);
+}
